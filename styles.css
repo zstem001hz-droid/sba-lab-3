@@ -5,17 +5,21 @@
 }
 
 body {
-    min-height: 100vh;
     font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
     background-color: hsl(229, 57%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("img/bg-desktop.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 100% auto;
+    background-position: bottom;
+    background-size: contain;
 }
 
 .fylo-card {
     background-color: hsl(228, 56%, 26%);
+    padding:40px;
     border-radius: 15px;
 }
 
@@ -33,18 +37,50 @@ body {
     border-radius: 10px;
 }
 
-.storage-card {
+/* .storage-card {
     background-color: hsl(228, 56%, 26%);
     width: 575px;
     height: 175px;
-}
+} */
 
 .progress {
-    height:12px;
+    height: 14px;
+    background: #0c122c;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.progress-bar {
+    background: linear-gradient (90deg, #ffa399, #ff4d97);
+    border-radius: 20px;
 }
 
 .storage-badge {
     position: absolute;
-    top:-30px;
-    right: 40px;
+    top:-35px;
+    right: 30px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight:700;
+}
+
+.storage-badge::after {
+    content: "";
+    position: absolute;
+    bottom:-10px;
+    right:0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: #0c122c;
+    display: flex;
+    align-items: center;
+    justify content: center;
+    border-radius: 10px;
 }
