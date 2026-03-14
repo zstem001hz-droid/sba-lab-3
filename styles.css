@@ -14,3 +14,37 @@ body {
     background-size: 100% auto;
 }
 
+.fylo-card {
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+}
+
+.logo-card {
+    border-top-right-radius: 80px;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: #0c122c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.storage-card {
+    background-color: hsl(228, 56%, 26%);
+    width: 575px;
+    height: 175px;
+}
+
+.progress {
+    height:12px;
+}
+
+.storage-badge {
+    position: absolute;
+    top:-30px;
+    right: 40px;
+}

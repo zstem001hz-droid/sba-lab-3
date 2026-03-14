@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- displays site properly based on user's device -->
   <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
 
   <title>Frontend Mentor | ** bootstrapped ** Fylo data storage component</title>
@@ -23,20 +22,44 @@
   </style> -->
 </head>
 
-<body>
-  <div>
-    <img class="text-start" src="img/logo.svg" alt="logo.svg">
-    <p class="text-white">You’ve used <strong>815 GB</strong> of your storage</p>
+<body class="d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="row justify-content-center align-items-center g-4">
+      <div class="col-md-4">
+        <div class="fylo-card logo-card p4">
+          <img class="text-start" src="img/logo.svg" alt="fylo logo">
 
-    <div>
-      <p>185 GB Left</p>
+          <div class="icon-box text-white"></div>
+          <div class="icon-box text-white"></div>
+          <div class="icon-box text-white"></div>
+        </div>
+      </div>
     </div>
+    <div class="col-md-6">
+      <div class="fylo-card p4 position-relative">
 
-    <p class="text-white">0 GB</p>
-    <p class="text-white">1000 GB</p>
+        <div class="storage-card rounded-3">
 
+          <p class="text-white">You’ve used <strong>815 GB</strong> of your storage
+          </p>
+          <div class="progress bg-dark">
+            <div class="progress-bar bg-danger" style="width:81%"></div>
+          </div>
 
+          <div class="d-flex justify-content-between text-white mt-2">
+            <div class="storage-badge bg-white px-4 py-2 rounded"></div>
+
+            <span>0 GB</span>
+            <span>1000 GB</span>
+          </div>
+          <div class="storage-badge bg-white px-4 py-2 rounded">
+            <strong>185</strong> GB Left
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 </body>
 
 </html>
