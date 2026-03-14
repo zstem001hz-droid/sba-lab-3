@@ -18,8 +18,9 @@ body {
 }
 
 .fylo-card {
+    position; relative;
     background-color: hsl(228, 56%, 26%);
-    padding:40px;
+    padding: 40px;
     border-radius: 15px;
 }
 
@@ -47,33 +48,55 @@ body {
     height: 16px;
     background: linear-gradient(90deg,#ffa399,#ff4d97);
     border-radius: 20px;
+    position: relative;
 }
 
-.dot{
+.dot {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    background: white;
     border-radius: 50%;
-    border: 6px solid white;
-    width: 1px;
-    margin: 96.5%;
 }
 
 .storage-badge {
     position: absolute;
-    top: -35px;
-    right: 30px;
+    top: -55px;
+    right: 35px;
     background: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight:700;
+    padding: 16px 26px;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 12px 12px 0px 12px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.storage-number {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+}
+
+.storage-label {
+    font-size:12px;
+    letter-spacing:2px;
+    color:#777;
 }
 
 .storage-badge::after {
-    content: "";
+    content:"";
     position: absolute;
-    bottom: -10px;
-    right:0;
-    border-width: 10px;
-    border-style: solid;
-    border-color: white transparent transparent transparent;
+    bottom: -12px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-top: 12px solid white;
 }
 
 .icon-box {
