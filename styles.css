@@ -24,7 +24,7 @@ body {
 }
 
 .logo-card {
-    border-top-right-radius: 80px;
+    border-top-right-radius: 90px;
 }
 
 .icon-box {
@@ -37,27 +37,28 @@ body {
     border-radius: 10px;
 }
 
-/* .storage-card {
-    background-color: hsl(228, 56%, 26%);
-    width: 575px;
-    height: 175px;
-} */
-
 .progress {
-    height: 14px;
+    height: 16px;
     background: #0c122c;
     border-radius: 20px;
-    padding: 3px;
 }
 
 .progress-bar {
-    background: linear-gradient (90deg, #ffa399, #ff4d97);
+    height: 16px;
+    background: linear-gradient(90deg,#ffa399,#ff4d97);
     border-radius: 20px;
+}
+
+.dot{
+    border-radius: 50%;
+    border: 6px solid white;
+    width: 1px;
+    margin: 96.5%;
 }
 
 .storage-badge {
     position: absolute;
-    top:-35px;
+    top: -35px;
     right: 30px;
     background: white;
     padding: 10px 20px;
@@ -68,7 +69,7 @@ body {
 .storage-badge::after {
     content: "";
     position: absolute;
-    bottom:-10px;
+    bottom: -10px;
     right:0;
     border-width: 10px;
     border-style: solid;
@@ -81,6 +82,6 @@ body {
     background: #0c122c;
     display: flex;
     align-items: center;
-    justify content: center;
+    justify-content: center;
     border-radius: 10px;
 }
