@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# SBA Lab 3: Frontend Mentor - Fylo Data Storage
 
-This is a solution to the [Fylo data storage component challenge ** using bootstrap ** on [Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a **Bootstrap** and custom CSS solution to the Fylo Data Storagechallenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -15,14 +15,14 @@ This is a solution to the [Fylo data storage component challenge ** using bootst
 
 
 ## Overview
-this is my completed version of the Fylo data storage component challenge ** using bootstrap ** from Frontend Mentor.
+this is my completed version of the Fylo data storage component challenge using **bootstrap CSS** from Frontend Mentor.
 
 ### Screenshot
 
 ![](./screenshot.jpg)
 
 ## My process
-Began by formatting index.html head to make connections with googleapi fonts, and bootstrap's cdn. Took a linear approach to tagging the index.html and css stylesheet with familiar css styles, creating classes, and adding some bootstrap utilities.
+Began by formatting index.html head to make connections with the google fonts utilized on the component, and bootstrap's cdn so that my files were connecting to their servers. Took a linear approach to tagging the index.html and css stylesheet with familiar css styles, creating classes, and adding some bootstrap utilities.
 
 Once this initial structure was completed I made modifications to the body and container(s) formatting, consistently checking the visual layout after each code change.  
 
@@ -39,7 +39,7 @@ Once this initial structure was completed I made modifications to the body and c
     - resolution: bootstrap code had to be refined and removed in some cases, and vice versa if bootstrap contained code I found acceptable for the challence.
 2. Standard CSS can be layered on top of bootstrap utilities. 
 3. CSS pseudo-element
-    - .storage-badge::after
+  - .storage-badge::after
 
 ## AI Collaboration
   - ChatGBT
@@ -48,7 +48,7 @@ Once this initial structure was completed I made modifications to the body and c
 ## Author
 
 Zac White
-- Frontend Mentor - unpublished/non-submittal
+ - Frontend Mentor - unpublished/non-submittal
 
 ## Acknowledgments
   - [getbootstrap](https://getbootstrap.com)
