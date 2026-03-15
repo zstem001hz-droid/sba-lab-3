@@ -43,7 +43,7 @@ Once this initial structure was completed I made modifications to the body and c
 
 ## AI Collaboration
   - ChatGBT
-  - Native AI in Browser contemporary browsers
+  - Native AI in contemporary browsers
 
 ## Author
 
