@@ -111,20 +111,19 @@ body {
 .storage-badge {
     position: absolute;
     top: -45px;
-    right: 30px;
+    right: 35px; /*changing from 30px */
     background: white;
-    padding: 24px 34px; /* bubble dimensions 24x36 is good */
-    font-size: 32px; /* changed from 32px - to reset bootstrap styling */
-    font-weight: 700; 
+    padding: 10px 24px; /* bubble dimensions 24x36 is good
+/*    font-size: 32px; /* changed from 32px - to reset bootstrap styling
+    font-weight: 700; */
     border-radius: 10px 10px 0px 10px;
-    line-height: 1;
     display: flex;
     align-items: center;
-    gap: 8px;
-}
+    gap: 8px; 
+} 
 
 .storage-number {
-    font-size: 38px; /* changed from 34*/
+    font-size: 38px; /* changed from 34 */
     font-weight: 700;
     color: #000;
 }
