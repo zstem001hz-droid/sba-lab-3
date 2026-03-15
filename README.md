@@ -40,6 +40,7 @@ Once this initial structure was completed I made modifications to the body and c
 2. Standard CSS can be layered on top of bootstrap utilities. 
 3. CSS pseudo-element
   - .storage-badge::after
+5. bootstrap utilities can replace flexbox properties, and the way I started this challenge by starting with known CSS code first, made this challenge more difficult than it needed to be. 
 
 ## AI Collaboration
   - ChatGBT

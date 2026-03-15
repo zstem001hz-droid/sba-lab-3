@@ -8,17 +8,10 @@ body {
     font-family: 'Raleway', sans-serif;
     min-height: 100vh;
     background-color: hsl(229, 57%, 11%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url("img/bg-desktop.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% auto;
-}
-
-.container {
-    margin-bottom: -35px; /* adjust cards on page */
 }
 
 .fylo-logo {
@@ -48,15 +41,6 @@ body {
     font-size: 12px;
     font-weight: 700;
 }
-
-/* .logo-card img {
-    display: block;
-    margin-bottom: 34px;
-} */
-
-/* .fylo-card:not(.logo-card) {
-    margin-top: 35px;
-} */
 
 .icon-box {
     width: 48px; /* controls height fylo card */
@@ -98,7 +82,7 @@ body {
 
 .dot {
     position: absolute;
-    right: 3px;
+    right: 4px;
     top: 50%;
     transform: translateY(-50%);
     width: 5px;
@@ -111,11 +95,9 @@ body {
 .storage-badge {
     position: absolute;
     top: -45px;
-    right: 35px; /*changing from 30px */
+    right: 35px;
     background: white;
-    padding: 10px 24px; /* bubble dimensions 24x36 is good
-/*    font-size: 32px; /* changed from 32px - to reset bootstrap styling
-    font-weight: 700; */
+    padding: 10px 24px; 
     border-radius: 10px 10px 0px 10px;
     display: flex;
     align-items: center;
@@ -123,7 +105,7 @@ body {
 } 
 
 .storage-number {
-    font-size: 38px; /* changed from 34 */
+    font-size: 38px;
     font-weight: 700;
     color: #000;
 }
