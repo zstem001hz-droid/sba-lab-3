@@ -18,13 +18,20 @@ body {
 }
 
 .container {
-    transform: translateY(-50px);
+    margin-bottom: -35px; /* adjust cards on page */
+}
+
+.fylo-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 34px;
 }
 
 .fylo-card {
     position: relative;
     background-color: hsl(228, 56%, 26%);
-    padding: 40px;
+    padding: 36px;
     border-radius: 15px;
 }
 
@@ -33,28 +40,37 @@ body {
     padding: 50px 40px;
 }
 
-.logo-card img {
-    display: block;
-    margin-bottom: 34px;
-}
-
-.fylo-card:not(.logo-card) {
-    margin-top: 35px;
-}
-
-.logo-card .dflex {
+.logo-card .d-flex {
     gap: 16px;
 }
 
+.d-flex span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* .logo-card img {
+    display: block;
+    margin-bottom: 34px;
+} */
+
+/* .fylo-card:not(.logo-card) {
+    margin-top: 35px;
+} */
+
 .icon-box {
-    width: 50px;
-    height: 50px;
-    background: #0c122c;
+    width: 48px; /* controls height fylo card */
+    height: 48px;
+    background: hsl(229, 57%, 11%);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
 }
+
+ .icon-box img {
+    max-width: 26px; /* icon size */
+} 
 
 .progress {
     height: 18px;
@@ -65,9 +81,19 @@ body {
 
 .progress-bar {
     height: 100%;
-    background: linear-gradient(90deg,#ffa399,#ff4d97);
+    background: linear-gradient(
+        90deg,
+        hsl(6, 100%, 80%) 0%,
+        hsl(335, 100%, 65%) 60%,
+        hsl(335, 100%, 65%) 100%);
     border-radius: 20px;
     position: relative;
+}
+
+.progress-labels span {
+    color: hsl(243, 100%, 93%);
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .dot {
@@ -75,21 +101,22 @@ body {
     right: 3px;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     background: white;
     border-radius: 50%;
+    box-shadow: 0 0 0 2px white;
 }
 
 .storage-badge {
     position: absolute;
-    top: -55px;
-    right: 35px;
+    top: -45px;
+    right: 30px;
     background: white;
-    padding: 16px 26px;
-    font-size: 32px;
-    font-weight: 700;
-    border-radius: 12px 12px 0px 12px;
+    padding: 24px 34px; /* bubble dimensions 24x36 is good */
+    font-size: 32px; /* changed from 32px - to reset bootstrap styling */
+    font-weight: 700; 
+    border-radius: 10px 10px 0px 10px;
     line-height: 1;
     display: flex;
     align-items: center;
@@ -97,19 +124,20 @@ body {
 }
 
 .storage-number {
-    font-size: 34px;
+    font-size: 38px; /* changed from 34*/
     font-weight: 700;
     color: #000;
 }
 
 .storage-label {
-    font-size:12px;
-    letter-spacing:2px;
-    color:#777;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: hsl(229, 7%, 55%);
 }
 
 .storage-badge::after {
-    content:"";
+    content: "";
     position: absolute;
     bottom: -12px;
     right: 0px;
