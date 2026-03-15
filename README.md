@@ -57,7 +57,7 @@ Zac White
   - K. Stevenson for collaboration and conversation. 
 
 ## Reflections
-1. I faced frustration searching and choosing the correct code to apply and would use my preferred browser or chrome search (both of which have implemented AI components - unavoidable use of AI) and chatGBT to find answers to those puzzles.  
-2. Bootstrap's precedence (incl. learning it simulatenaeously with CSS styles and formatting) and the libraries inaccuracies was frustrating.
+1. I faced frustration searching and choosing the correct code to apply and would use my preferred browser or chrome search (both of which have implemented AI components - unavoidable use of AI) and chatGBT to find answers to solve those riddles.  
+2. Bootstrap's precedence (incl. introductory implementation of bootstrap code simulatenaeously with early learning of cutsom CSS styles) can be confusing.
 3. Finding conflicting code techniques manually is difficult, online resources for verifying code are very useful.
-4. Bootstrap has limitations and some components, and utilities interfere with custom CSS style.  
+4. Bootstrap has limitations and presidence on the HTML file, some components, and utilities interfere with custom CSS style. 
