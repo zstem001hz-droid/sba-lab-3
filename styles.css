@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    min-height: 100vh;
     background-color: hsl(229, 57%, 11%);
     background-image: url("img/bg-desktop.png");
     background-repeat: no-repeat;
@@ -22,15 +21,13 @@ body {
 }
 
 .fylo-card {
-    position: relative;
     background-color: hsl(228, 56%, 26%);
-    padding: 36px;
     border-radius: 15px;
+    position: relative;
 }
 
 .logo-card {
     border-top-right-radius: 90px;
-    padding: 50px 40px;
 }
 
 .logo-card .d-flex {
@@ -46,9 +43,6 @@ body {
     width: 48px; /* controls height fylo card */
     height: 48px;
     background: hsl(229, 57%, 11%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
 }
 
