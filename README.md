@@ -17,14 +17,18 @@ This is a **Bootstrap** and custom CSS solution to the Fylo Data Storagechalleng
 ## Overview
 this is my completed version of the Fylo data storage component challenge using **bootstrap CSS** from Frontend Mentor.
 
-### Screenshot
+### Screenshots
 
 ![](./screenshot.jpg)
+![](./screenshot2.jpg)
+![](./screenshot3.jpg)
 
 ## My process
 Began by formatting index.html head to make connections with the google fonts utilized on the component, and bootstrap's cdn so that my files were connecting to their servers. Took a linear approach to tagging the index.html and css stylesheet with familiar css styles, creating classes, and adding some bootstrap utilities.
 
-Once this initial structure was completed I made modifications to the body and container(s) formatting, consistently checking the visual layout after each code change.  
+Once this initial structure was completed I made modifications to the body and container(s) formatting, consistently checking the visual layout after each code change. After desktop version was complete I used dev tools and found the breakpoint at 768 pixels for my 'body' media query, and then I wrote 2 additional media queries to resolve viewpoint inconsistencies. 
+  - **.storage-badge** allows card and bubble elements to stack. 
+  - **.storage-badge::after:** to round out the bottom-right corner of the storage bubble, and restrict the speaaker-triangle from appearing in mobile viewport. 
 
 ### Built with
 

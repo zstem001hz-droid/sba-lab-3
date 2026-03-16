@@ -17,7 +17,6 @@ body {
     width: 100px;
     height: auto;
     display: block;
-    margin-bottom: 34px;
 }
 
 .fylo-card {
@@ -30,17 +29,13 @@ body {
     border-top-right-radius: 90px;
 }
 
-.logo-card .d-flex {
-    gap: 16px;
-}
-
 .d-flex span {
     font-size: 12px;
     font-weight: 700;
 }
 
 .icon-box {
-    width: 48px; /* controls height fylo card */
+    width: 48px;
     height: 48px;
     background: hsl(229, 57%, 11%);
     border-radius: 10px;
@@ -58,7 +53,6 @@ body {
 }
 
 .progress-bar {
-    height: 100%;
     background: linear-gradient(
         90deg,
         hsl(6, 100%, 80%) 0%,
@@ -120,4 +114,25 @@ body {
     height: 0;
     border-left: 12px solid transparent;
     border-top: 12px solid white;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-image: url(img/bg-mobile.png);
+        background-size: cover;
+        background-position: center; 
+    }
+
+    .storage-badge {
+        position: static;
+        margin: 20px auto 0;
+        width: fit-content;
+        border-radius: 10%;
+    }
+
+    .storage-badge::after {
+        display:  none;
+    }
+
 }
