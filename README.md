@@ -47,7 +47,7 @@ Once this initial structure was completed I made modifications to the body and c
 5. bootstrap utilities can replace flexbox properties, and the way I started this challenge with known CSS code first, made it more difficult than it needed to be. 
 
 ## AI Collaboration
-  - ChatGBT
+  - ChatGPT
   - Native AI in contemporary browsers
 
 ## Author
